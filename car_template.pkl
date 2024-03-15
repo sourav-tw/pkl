@@ -1,0 +1,23 @@
+import "measurement.pkl"
+
+class CarTemplate {
+    type : String
+    make : String
+    model : String
+    maxSpeed: measurement
+    mileage : measurement
+}
+
+Car: CarTemplate = new {
+    type = "SUV"
+    make = "Toyota"
+    model = "Innova"
+    maxSpeed = new {
+        unit = "mph"
+        value = 100
+    }
+    mileage = new {
+        unit = "mpl"
+        value = 7
+    }
+}

@@ -1,0 +1,13 @@
+module Car
+
+type = "Sedan"
+make = "Honda"
+model = "City"
+maxSpeed {
+    value = 100
+    unit = "mph"
+}
+mileage {
+    value = 8
+    unit = "mpl"
+}

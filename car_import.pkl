@@ -1,0 +1,9 @@
+import "car.pkl"
+
+MyCar = (car) {
+    model = "Amaze"
+    mileage {
+        value = 14
+        unit = "mpl"
+    }
+}

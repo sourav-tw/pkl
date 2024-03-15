@@ -1,0 +1,9 @@
+amends "car_typesafe.pkl"
+
+type = "SUV"
+make = "Toyota"
+model = "Innova"
+mileage {
+    value = 0
+    unit = "mpl"
+}

@@ -1,0 +1,7 @@
+amends "car.pkl"
+
+model = "Amaze"
+mileage {
+    value = 14
+    unit = "mpl"
+}

@@ -1,0 +1,13 @@
+import "measurement.pkl"
+
+type : String = "Sedan"
+make : String = "Honda"
+model : String = "City"
+maxSpeed : measurement = new {
+    value = 100
+    unit = "mph"
+}
+mileage : measurement = new {
+    value = 8
+    unit = "mpl"
+}
